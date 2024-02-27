@@ -1,0 +1,99 @@
+
+
+.pozadi {
+    background-image: url("Pozadi.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+h2{
+    text-decoration: double;
+    font-weight: bold;
+    text-align: left;
+}
+.ctverec1{
+    margin-top: 150px;
+    width: 50px;
+    height: 50px;
+    float: right;
+    
+
+    
+    background-color: rgba(231, 115, 115, 1);
+}
+.ctverec2{
+    margin-top: 40px;
+    margin-left: 100%;
+    width: 50px;
+    height: 50px;
+    float: right;
+    background-color: rgba(171, 171, 171, 1);
+}
+h1{
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.pozadi2{
+    background-image: url("Pozadi2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.contact{
+    float: right;
+    margin-right: 50%;
+    
+}
+.contact {
+    margin-left: 40%;
+}
+li {
+    font-weight: bold;
+    font-size: large;
+}
+.glyphicon{
+margin-left: 30px;
+
+
+} 
+
+@media only screen and (max-width: 767px) {
+   .ctverec2{
+  visibility: hidden;
+   }
+   .ctverec1{
+    visibility: hidden;
+   }
+.ctverec3{
+background-color: rgba(171, 171, 171, 1);
+width: 50px;
+height: 50px;
+bottom: 120px;
+margin-left:  190px; 
+position: fixed;
+float: right;
+}
+.ctverec4{
+background-color: rgba(231, 115, 115, 1);
+width: 50px;
+height: 50px;
+bottom: 120px;
+float: right;
+
+margin-left: 310px; 
+position: fixed;
+}
+.ctverec5{
+background-color:rgba(171, 171, 171, 1);
+width: 50px;
+height: 50px;
+bottom: 120px;
+float: right;
+
+
+margin-left: 250px; 
+position: fixed;
+}
+
+}    
+</style>
