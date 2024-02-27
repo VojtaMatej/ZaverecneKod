@@ -1,2 +1,2 @@
 # ZaverecneKod
-KYS
+Vojty Mateje GIT
